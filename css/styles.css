@@ -38,6 +38,58 @@ body {
   padding-right: 15px;
   padding-left: 15px;
 } */
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Header */
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  margin-right: 76px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.logo-studio {
+  color: var(--secondary-color);
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 396px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -116,7 +168,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
-}
+} 
 
 .logo-studio {
   color: var(--secondary-color);
