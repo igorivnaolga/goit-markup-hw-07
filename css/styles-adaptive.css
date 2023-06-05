@@ -563,8 +563,8 @@ body {
 }
 .logo-footer {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-bottom: 16px;
 }
 .describtion-light {
@@ -1083,6 +1083,10 @@ body {
     flex-wrap: wrap;
     column-gap: 24px;
   }
+  .logo-footer {
+    display: inline-block;
+  }
+
   .social-media-header {
     text-align: left;
   }
@@ -1186,9 +1190,6 @@ body {
     width: 264px;
   }
 
-  .logo-footer {
-    display: inline-block;
-  }
   .subscribe-form-container {
     margin-left: auto;
   }
