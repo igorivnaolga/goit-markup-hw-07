@@ -201,10 +201,14 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  margin-right: 76px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-color);
+}
+.logo-footer {
+  margin-right: 0;
 }
 
 .logo-studio {
@@ -339,7 +343,6 @@ body {
   flex-direction: column;
   gap: 72px;
 }
-
 .work-item-picture {
   display: none;
 }
@@ -355,11 +358,11 @@ body {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 72px;
 }
 .team-member {
   max-width: 264px;
-  margin-bottom: 72px;
+
   background-color: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -1059,9 +1062,10 @@ body {
   }
   /* Section2 */
   .work {
-    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    gap: 24px;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .work-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -1070,10 +1074,11 @@ body {
   .team-list {
     display: flex;
     flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
   }
   .team-member {
     flex-basis: calc((100% - 48px) / 2);
-    margin-bottom: 64px;
   }
   /* Section Customers Tablet */
   .customers-list {
