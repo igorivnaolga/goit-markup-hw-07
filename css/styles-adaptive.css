@@ -131,7 +131,6 @@ body {
 .mobile-menu-container {
   display: flex;
   flex-direction: column;
-
   height: 100%;
 }
 .mobile-menu-list {
@@ -202,7 +201,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  margin-right: 76px;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
