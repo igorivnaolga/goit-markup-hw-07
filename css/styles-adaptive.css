@@ -128,11 +128,17 @@ body {
 .menu-close-btn:focus .menu-close-btn-icon {
   fill: #ffffff;
 }
+.mobile-menu-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100%;
+}
 .mobile-menu-list {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
 }
+
 .mobile-menu-item {
   margin-bottom: 40px;
 }
